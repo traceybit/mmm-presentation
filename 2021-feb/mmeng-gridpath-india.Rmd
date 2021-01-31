@@ -13,6 +13,9 @@ output:
       highlightSpans: false
       countIncrementalSlides: false
       ratio: "16:9"
+    includes:
+      after_body: insert-logo.html
+
 ---
 name: toc
 
@@ -166,7 +169,7 @@ The next additions to the model are:
 
 ---
 
-# Research Question 3
+# Research question 3
 
 ### How will the water usage for power plant operations change, and how will water constraints affect power plant operations?
 
