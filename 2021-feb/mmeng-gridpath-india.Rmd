@@ -20,7 +20,7 @@ name: toc
 
 1. [Background](#background)
 
-2. [Existing work](#review)
+2. [Previous work](#review)
 
 3. [Gridpath](#gridpath)
 
@@ -50,7 +50,35 @@ name: gridpath
 
 # Provide an overview of gridpath
 
-Define capacity expansion and UC&D
+Gridpath is an **open-source** capacity expansion and production cost model developed by Blue Marble Analytics
+
+---
+
+# What is capacity expansion or production cost?
+
+--
+
+**Capacity expansion**
+
+--
+
+* Identify generation, storage, DR, and transmission investments and retirements
+
+--
+
+* Simultaneously minimize capacity and operations costs across several years
+
+--
+
+**Production cost**
+
+--
+
+* Estimate operating costs of the system and assess impacts of investments or strategies on system operation
+
+--
+
+* Unit commitment and economic dispatch model solved over 1 day or 1 year at 5, 15 min or hourly temporal resolution.
 
 ---
 class: inverse, center, middle

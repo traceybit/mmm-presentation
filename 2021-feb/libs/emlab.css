@@ -1,5 +1,5 @@
 .remark-slide-content {
-  background-color: #FAFAFA;
+  background-color: #ffffff;
   border-top: 80px solid #005581;
   font-size: 26px;
   font-weight: 300;
@@ -8,7 +8,7 @@
 }
 
 .title-slide .inverse .remark-slide-content {
-  background-color: #FAFAFA;
+  background-color: #ffffff;
 }
 
 .inverse {
@@ -18,7 +18,7 @@
 
 /* Removes colored bar from top of the slide resulting in a clear slide */
 .clear{
-  border-top: 0px solid #FAFAFA;
+  border-top: 0px solid #ffffff;
 }
 
 
@@ -78,8 +78,8 @@ h2, h3, h4 {
 */
 
 .title-slide {
-  background-color: #FAFAFA;
-  border-top: 80px solid #FAFAFA;
+  background-color: #ffffff;
+  border-top: 80px solid #ffffff;
 }
 
 .title-slide h1  {
