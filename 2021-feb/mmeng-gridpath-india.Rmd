@@ -1,0 +1,46 @@
+---
+title: "India's Electricity Futures"
+subtitle: "Future Work"
+author: "Measrainsey (Meas) Meng"
+date: "emLab MMM Presentation (February 1, 2021)"
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts] 
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      highlightSpans: false
+      countIncrementalSlides: false
+---
+name: toc
+
+# Table of contents
+
+1. [Background](#background)
+
+---
+class: inverse, center, middle
+name: background
+
+# Background
+
+<!-- <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html> -->
+
+---
+
+# This is a slide title
+
+This is the slide text:
+- Item number 2
+- Item number 2
+
+--
+
+This is another chunk of text on the same slide
+
+---
+class: inverse, center, middle
+
+# Thank you!
+<!-- <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html> -->
