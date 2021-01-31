@@ -22,6 +22,11 @@
 }
 
 
+a:link {
+    color: #0d5093;
+}
+
+
 h1 {
   font-weight: normal;
   margin-top: -95px;
