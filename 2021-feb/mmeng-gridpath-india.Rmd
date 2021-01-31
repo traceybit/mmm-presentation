@@ -19,6 +19,9 @@ name: toc
 # Table of contents
 
 1. [Background](#background)
+2. [Existing work](#review)
+3. [Gridpath](#gridpath)
+4. [Current/future work](#future)
 
 ---
 class: inverse, center, middle
@@ -30,15 +33,111 @@ name: background
 
 ---
 
-# This is a slide title
+# Some info on India's electricity grid
 
-This is the slide text:
-- Item number 2
-- Item number 2
+<!-- This is the slide text: -->
+<!-- - Item number 2 -->
+<!-- - Item number 2 -->
+
+<!-- -- -->
+
+<!-- This is another chunk of text on the same slide -->
+---
+class: inverse, center, middle
+name: gridpath
+
+# Gridpath
+
+---
+
+# Provide an overview of gridpath
+
+Define capacity expansion and UC&D
+
+---
+class: inverse, center, middle
+name: review
+
+# Existing work
+
+---
+
+# Review work that's already been done
+
+
+---
+class: inverse, center, middle
+name: future
+
+# Ongoing/future work
+
+---
+
+# Research questions
+
+The research questions we are interested in answering are:
+1. How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?
+2. Will the environmental benefits of high renewable penetration be distributed equitably across India? 
+3. How will the water usage for power plant operations change, and how will water constraints affect power plant operations?
+
+---
+
+# Research question 1
+
+### How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?
+
+The India model has been expanded to include multiple load zones (one for each state/province).
 
 --
 
-This is another chunk of text on the same slide
+The next additions to the model are:
+--
+
+- Technology (solar, wind, battery) costs
+--
+
+- Transmission constraints
+--
+
+- RPS scenarios
+
+---
+
+# Research question 2
+
+### Will the environmental benefits of high renewable penetration be distributed equitably across India? 
+
+Introduce how coal plants are clustered around north/central India (coal-mining states that operate low-cost plants). Coal plants in southern regions are more expensive to operate, so they are the most likely to shut down
+
+Include map of India's coal plants
+
+--
+
+The next additions to the model are:
+
+--
+
+- Add environmental pollutant emission factors into model
+
+---
+
+# Research Question 3
+
+### How will the water usage for power plant operations change, and how will water constraints affect power plant operations?
+
+Show articles mentioning coal curtailments/shut downs due to drought
+
+--
+
+The next additions to the model are:
+
+--
+
+- Add water intensity factors into model
+--
+
+- Incorportate climate and water/hydrology model outputs as constraints
+
 
 ---
 class: inverse, center, middle
