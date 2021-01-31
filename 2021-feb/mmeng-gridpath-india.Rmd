@@ -52,6 +52,12 @@ name: gridpath
 
 Gridpath is an **open-source** capacity expansion and production cost model developed by Blue Marble Analytics
 
+.center[
+```{r echo = FALSE, out.width = '90%'}
+knitr::include_graphics("img/gridpath-functionality.png")
+```
+]
+
 ---
 
 # What is capacity expansion or production cost?
