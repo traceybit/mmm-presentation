@@ -12,6 +12,7 @@ output:
       highlightLines: true
       highlightSpans: false
       countIncrementalSlides: false
+      ratio: "16:9"
 ---
 name: toc
 
