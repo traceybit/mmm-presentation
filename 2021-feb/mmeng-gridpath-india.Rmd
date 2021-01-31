@@ -1,11 +1,11 @@
 ---
 title: "India's Electricity Futures"
 subtitle: "Future Work"
-author: "Measrainsey (Meas) Meng"
+author: "Meas Meng"
 date: "emLab MMM Presentation (February 1, 2021)"
 output:
   xaringan::moon_reader:
-    css: [default, metropolis-fonts, "libs/economist.css"] 
+    css: [default, metropolis-fonts, "libs/emlab.css"] 
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -25,7 +25,7 @@ name: background
 
 # Background
 
-<!-- <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html> -->
+<!-- <html><div style='float:left'></div><hr color='#df110e' size=1px width=796px></html> -->
 
 ---
 

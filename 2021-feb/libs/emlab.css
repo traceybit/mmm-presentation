@@ -23,7 +23,7 @@
 
 
 a:link {
-    color: #0d5093;
+    color: #1295D8;
 }
 
 
@@ -103,7 +103,7 @@ hr, .title-slide h2::after, .mline h1::after {
   content: '';
   display: block;
   border: none;
-  background-color: #EB811B;
+  background-color: #FFB511;
   color: #FFB511;
   height: 1px;
 }
