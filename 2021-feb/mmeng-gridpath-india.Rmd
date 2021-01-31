@@ -1,8 +1,8 @@
 ---
-title: "India's Electricity Futures"
-subtitle: "Future Work"
+title: "Modeling high renewable energy scenarios in India"
+subtitle: "An overview of my ongoing and future research"
 author: "Meas Meng"
-date: "emLab MMM Presentation (February 1, 2021)"
+date: "emLab MMM | February 1, 2021"
 output:
   xaringan::moon_reader:
     css: [default, metropolis-fonts, "libs/emlab.css"] 
@@ -19,9 +19,12 @@ name: toc
 # Table of contents
 
 1. [Background](#background)
+
 2. [Existing work](#review)
+
 3. [Gridpath](#gridpath)
-4. [Current/future work](#future)
+
+4. [Ongoing/future work](#future)
 
 ---
 class: inverse, center, middle
@@ -29,24 +32,19 @@ name: background
 
 # Background
 
-<!-- <html><div style='float:left'></div><hr color='#df110e' size=1px width=796px></html> -->
+<hr/>
 
 ---
 
 # Some info on India's electricity grid
 
-<!-- This is the slide text: -->
-<!-- - Item number 2 -->
-<!-- - Item number 2 -->
-
-<!-- -- -->
-
-<!-- This is another chunk of text on the same slide -->
 ---
 class: inverse, center, middle
 name: gridpath
 
 # Gridpath
+
+<hr/>
 
 ---
 
@@ -60,6 +58,8 @@ name: review
 
 # Existing work
 
+<hr/>
+
 ---
 
 # Review work that's already been done
@@ -71,13 +71,24 @@ name: future
 
 # Ongoing/future work
 
+<hr/>
+
 ---
 
 # Research questions
 
-The research questions we are interested in answering are:
+Building on previous work, we are interested in modeling India's electricity futures and asking the following research questions:
+
+--
+
 1. How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?
+
+--
+
 2. Will the environmental benefits of high renewable penetration be distributed equitably across India? 
+
+--
+
 3. How will the water usage for power plant operations change, and how will water constraints affect power plant operations?
 
 ---
