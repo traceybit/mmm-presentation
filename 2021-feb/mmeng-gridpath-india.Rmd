@@ -1,8 +1,8 @@
 ---
-title: "Modeling high renewable energy scenarios in India"
-subtitle: "An overview of my ongoing and future research"
-author: "Meas Meng"
-date: "emLab MMM | February 1, 2021"
+title: "Modeling high renewable energy scenarios for India's electricity sector"
+subtitle: "An overview of my current and future research"
+author: "Meas Meng's Monday Morning Meeting (MMMMM? M<sup>5</sup>?) Presentation"
+date: "emLab | February 1, 2021"
 output:
   xaringan::moon_reader:
     css: [default, metropolis-fonts, "libs/emlab.css"] 
