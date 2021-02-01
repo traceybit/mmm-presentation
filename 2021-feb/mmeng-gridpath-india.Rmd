@@ -23,11 +23,11 @@ name: toc
 
 1. [Background](#background)
 
-2. [Previous work](#review)
+2. [Research questions](#rq)
 
-3. [Research questions](#rq)
+3. [Gridpath](#gridpath)
 
-4. [Gridpath](#gridpath)
+4. [Previous work](#previous)
 
 5. [Ongoing/future work](#future)
 
@@ -42,19 +42,6 @@ name: background
 ---
 
 # Some info on India's electricity grid
-
----
-
-class: inverse, center, middle
-name: review
-
-# Previous work
-
-<hr/>
-
----
-
-# Review work that's already been done
 
 ---
 class: inverse, center, middle
@@ -146,43 +133,50 @@ name: gridpath
 
 ---
 
-# Provide an overview of gridpath
+# <font size="6px">Gridpath is an **open-source** capacity expansion and production cost model</font>
 
-Gridpath is an **open-source** capacity expansion and production cost model developed by Blue Marble Analytics
+--
 
+.pull-left[
 .center[
-```{r echo = FALSE, out.width = '90%'}
-knitr::include_graphics("img/gridpath-functionality.png")
+```{r echo = FALSE, out.width = '60%'}
+knitr::include_graphics("img/capacity-expansion.png")
 ```
+]
+
+.center[**Capacity expansion**]
+* Examine how the generation mix should evolve over the long-term
+* Decide whether to build or retire generation, storage, transmission
+
+]
+
+--
+
+.pull-right[
+.center[
+```{r echo = FALSE, out.width = '60%'}
+knitr::include_graphics("img/production-cost.png")
+```
+]
+
+.center[**Production cost**]
+* Simulate detailed operations of a power system over a short period
+* Estimate operating costs of the system and assess impacts of investments or strategies on system operation
+<!-- * Unit commitment and economic dispatch model solved over 1 day or 1 year at 5, 15 min or hourly temporal resolution. -->
 ]
 
 ---
 
-# What is capacity expansion or production cost?
+class: inverse, center, middle
+name: previous
 
---
+# Previous work
 
-**Capacity expansion**
+<hr/>
 
---
+---
 
-* Identify generation, storage, DR, and transmission investments and retirements
-
---
-
-* Simultaneously minimize capacity and operations costs across several years
-
---
-
-**Production cost**
-
---
-
-* Estimate operating costs of the system and assess impacts of investments or strategies on system operation
-
---
-
-* Unit commitment and economic dispatch model solved over 1 day or 1 year at 5, 15 min or hourly temporal resolution.
+# Review work that's already been done
 
 ---
 class: inverse, center, middle
