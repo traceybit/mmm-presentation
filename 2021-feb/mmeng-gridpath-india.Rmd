@@ -29,22 +29,19 @@ name: background
 # <font size="6pt">India is the world’s third-largest energy consumer, after the US and China</font>
 
 --
-India's current electricity mix is made up of mostly coal-sourced generation
-.center[
-```{r echo = FALSE, out.width = '70%'}
-knitr::include_graphics("img/figure8_2020.png")
+
+* Most of India's electricity currently comes from coal power plants
+```{r echo = FALSE, out.width = '40%', out.extra='style="float:right; padding:1px"'}
+knitr::include_graphics("img/figure9_2020.png")
 ```
-]
 
----
+--
 
-# Electricity demand in India is projected to grow 4.7% per year
+* Electricity demand in India is projected to grow 4.7% per year
 
-.center[
-```{r echo = FALSE, out.width = '80%'}
+```{r echo = FALSE, out.width = '60%'}
 knitr::include_graphics("img/world-electricity-generation.png")
 ```
-]
 
 ---
 
@@ -52,21 +49,17 @@ knitr::include_graphics("img/world-electricity-generation.png")
 
 --
 
-The government of India has established renewable energy goals for the grid
-.center[
-```{r echo = FALSE, out.width = '55%'}
+* The government of India has established renewable energy goals for the power sector
+```{r echo = FALSE, out.width = '58%', out.extra='style="float:right; padding:5px"'}
 knitr::include_graphics("img/india-re-goals-2.png")
 ```
-]
 
 --
 
-Renewables is projected to make up the majority of the electricity mix by 2050
-.center[
-```{r echo = FALSE, out.width = '28%'}
+* Renewables is projected to make up the majority of the electricity mix by 2050
+```{r echo = FALSE, out.width = '40%'}
 knitr::include_graphics("img/india-projected-re.png")
 ```
-]
 
 ---
 class: inverse, center, middle
@@ -128,7 +121,7 @@ You can download Gridpath on Github: [github.com/blue-marble/gridpath](https://g
 class: inverse, center, middle
 name: future
 
-# Using Gridpath to model optimal investments with RE targets in India
+# Using Gridpath to model India's electricity futures
 
 <hr/>
 
@@ -154,11 +147,11 @@ name: future
 
 ---
 
-# <font size="6.5pt">There is a spatial diversity in wind and solar resources across India</font>
+# <font size="6.5pt">There is spatial diversity in wind and solar resources across India</font>
 --
 
 .pull-left[
-More than 50% of India’s installed solar capacity is concentrated in southern region.
+More than 50% of India’s installed solar capacity is concentrated in southern region
 .center[
 ```{r echo = FALSE, out.width = '40%'}
 knitr::include_graphics("img/india-solar-resource.jpeg")
@@ -168,7 +161,7 @@ knitr::include_graphics("img/india-solar-resource.jpeg")
 
 --
 .pull-right[
-Wind resources are highest in western and southern regions. 
+Wind resources are highest in western and southern regions
 .center[
 ```{r echo = FALSE, out.width = '55%'}
 knitr::include_graphics("img/india-wind-resource.png")
@@ -190,7 +183,7 @@ Transmission capacity will be needed to integrate renewable energy capacity, but
 
   Next steps:
   * Add multiple cost trajectories for wind, solar, and battery storage
-  * Build scenarios for renewable portfolio obligation targets of 10%, 30%, 50%, and 70%
+  * Build scenarios for renewable portfolio obligation targets of 10%, 30%, 50%, and 70 RE
   * Add transmission constraints
 
 ---
@@ -215,7 +208,7 @@ Transmission capacity will be needed to integrate renewable energy capacity, but
 
 ---
 
-# Cheap coal is co-located with poverty
+# Cheap coal power plants are co-located with poverty
 
 --
 * Coal power plants are concentrated in west-central northern regions of India
@@ -230,7 +223,7 @@ knitr::include_graphics("img/india-coal.jpg")
 * Eastern and southern states also have the highest poverty rates
 --
 
-* As solar and wind get cheaper, the more expensive coal plants in higher income regions will shut down first
+* As solar and wind get cheaper, the more expensive coal plants in higher income regions will likely shut down first
 
 ---
 
@@ -240,8 +233,10 @@ knitr::include_graphics("img/india-coal.jpg")
 
 2. **Will the environmental benefits of high renewable penetration be distributed equitably across India?**
   
+--
+
   Next steps:
-    * Assign pollutant factors (for NOx, SOx, PM2.5, etc) to power plants
+    * Assign pollutant emission factors (for NOx, SOx, PM2.5, etc) to power plants
 
 ---
 
@@ -301,6 +296,8 @@ knitr::include_graphics("img/water-crisis-2.png")
 2. <font color="#ced8d8">Will the environmental benefits of high renewable penetration be distributed equitably across India?</font>
 
 3. **How will the water usage for power plant operations change, and how will water constraints affect power plant operations?**
+
+--
 
   Next steps: 
   * Add water intensity factors into model
