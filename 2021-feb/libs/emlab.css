@@ -122,7 +122,7 @@ hr, .title-slide h2::after, .mline h1::after {
   border: none;
   background-color: #FFB511;
   color: #FFB511;
-  height: 5px;
+  height: 2px;
 }
 
 hr, .mline h1::after {
