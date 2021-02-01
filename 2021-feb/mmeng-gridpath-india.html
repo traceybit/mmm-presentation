@@ -83,7 +83,7 @@ name: gridpath
 
 ---
 
-# &lt;font size="6px"&gt; Gridpath is a capacity expansion and production cost modeling platform &lt;/font&gt;
+# &lt;font size="6pt"&gt; Gridpath is a capacity expansion and production cost modeling platform &lt;/font&gt;
 
 --
 
@@ -135,7 +135,7 @@ name: future
 
 # Research questions
 
-1. How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?
+1. What are the impacts of technology costs, renewable portfolio standards, and transmission constraints on renewable energy investments?
 
 2. Will the environmental benefits of high renewable penetration be distributed equitably across India? 
 
@@ -145,7 +145,7 @@ name: future
 
 # Research questions
 
-1. **How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?**
+1. **What are the impacts of technology costs, renewable portfolio standards, and transmission constraints on renewable energy investments?**
 
 2. &lt;font color="#ced8d8"&gt;Will the environmental benefits of high renewable penetration be distributed equitably across India?&lt;/font&gt;
 
@@ -156,38 +156,43 @@ name: future
 # &lt;font size="6.5pt"&gt;There is a spatial diversity in wind and solar resources across India&lt;/font&gt;
 --
 
-.right-column[
+.pull-left[
+More than 50% of India’s installed solar capacity is concentrated in southern region.
 .center[
-&lt;img src="img/india-solar-resource.jpeg" width="45%" /&gt;
+&lt;img src="img/india-solar-resource.jpeg" width="40%" /&gt;
 ]
-]
-
-
----
-
-# Addressing research question 1
-
---
-.left-column[
-How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?
 ]
 
 --
-.right-column[
+.pull-right[
+Wind resources are highest in western and southern regions. 
 .center[
-&lt;img src="img/india-grid.png" width="30%" /&gt;
+&lt;img src="img/india-wind-resource.png" width="55%" /&gt;
 ]
-For next steps, we will be adding the following to the India model:
-* Multiple cost trajectories for wind, solar, and battery storage
-* Transmission constraints
-* Renewable portfolio obligations
 ]
+
+--
+
+Transmission capacity will be needed to integrate renewable energy capacity, but limits on transmission buildout could affect which renewable technologies are deployed
 
 ---
 
 # Research questions
 
-1. **How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?**
+1. **What are the impacts of technology costs, renewable portfolio standards, and transmission constraints on renewable energy investments?**
+
+--
+
+  Next steps:
+  * Add multiple cost trajectories for wind, solar, and battery storage
+  * Build scenarios for renewable portfolio obligation targets of 10%, 30%, 50%, and 70%
+  * Add transmission constraints
+
+---
+
+# Research questions
+
+1. **What are the impacts of technology costs, renewable portfolio standards, and transmission constraints on renewable energy investments?**
 
 2. &lt;font color="#ced8d8"&gt;Will the environmental benefits of high renewable penetration be distributed equitably across India?&lt;/font&gt;
 
@@ -197,7 +202,7 @@ For next steps, we will be adding the following to the India model:
 
 # Research questions
 
-1. &lt;span style="color:#ced8d8";&gt; How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?&lt;/span&gt;
+1. &lt;span style="color:#ced8d8";&gt; What are the impacts of technology costs, renewable portfolio standards, and transmission constraints on renewable energy investments?&lt;/span&gt;
 
 2. **Will the environmental benefits of high renewable penetration be distributed equitably across India?**
 
@@ -205,37 +210,37 @@ For next steps, we will be adding the following to the India model:
 
 ---
 
-# Addressing research question 2
+# Cheap coal is co-located with poverty
 
 --
-.left-column[
-Will the environmental benefits of high renewable penetration be distributed equitably across India? 
-]
-
+* Coal power plants are concentrated in west-central northern regions of India
+&lt;img src="img/india-coal.jpg" width="45%" style="float:right; padding:5px" /&gt;
 --
-.right-column[
-.center[
-&lt;img src="img/india-coal.jpg" width="40%" /&gt;
-]
-For next steps, we will be adding the following to the India model:
-* Add environmental pollutant emission factors into model
-]
+
+* Largest coal reserves are located in eastern and southern regions, so coal plants there are cheaper to operate
+--
+
+* Eastern and southern states also have the highest poverty rates
+--
+
+* As solar and wind get cheaper, the more expensive coal plants in higher income regions will shut down first
 
 ---
 
 # Research questions
 
-1. &lt;span style="color:#ced8d8";&gt; How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?&lt;/span&gt;
+1. &lt;span style="color:#ced8d8";&gt; What are the impacts of technology costs, renewable portfolio standards, and transmission constraints on renewable energy investments?&lt;/span&gt;
 
 2. **Will the environmental benefits of high renewable penetration be distributed equitably across India?**
-
-3. &lt;font color="#ced8d8"&gt;How will the water usage for power plant operations change, and how will water constraints affect power plant operations?&lt;/font&gt;
+  
+  Next steps:
+    * Assign pollutant factors (for NOx, SOx, PM2.5, etc) to power plants
 
 ---
 
 # Research questions
 
-1. &lt;span style="color:#ced8d8";&gt; How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?&lt;/span&gt;
+1. &lt;span style="color:#ced8d8";&gt; What are the impacts of technology costs, renewable portfolio standards, and transmission constraints on renewable energy investments?&lt;/span&gt;
 
 2. &lt;font color="#ced8d8"&gt;Will the environmental benefits of high renewable penetration be distributed equitably across India?&lt;/font&gt;
 
@@ -243,21 +248,49 @@ For next steps, we will be adding the following to the India model:
 
 ---
 
-# Addressing research question 3
+# India's power sector is very dependent on water
 
 --
-.left-column[
-How will the water usage for power plant operations change, and how will water constraints affect power plant operations?
-]
+
+* 80% of India’s electricity is generated from thermal (fossil fuel, biomass, nuclear, and concentrated solar) power plants, which require water for cooling
+--
+
+  * Thermal power plants are located in water-stressed areas
+    &lt;img src="img/parched_power_map.png" width="48%" style="float:right; padding:5px" /&gt;
 
 --
-.right-column[
-.center[
-&lt;img src="img/parched_power_map.png" width="40%" /&gt;
-]
-* Add water intensity factors into model
-* Incorportate climate and water/hydrology model outputs as constraints
-]
+
+* 10% of electricity is generated from hydropower plants, which also require water 
+--
+
+* Power plants have had to shut down in recent years due to water shortages
+
+&lt;img src="img/water-crisis-1.png" width="45%" style="float:left; padding:1px" /&gt;
+
+&lt;img src="img/water-crisis-2.png" width="45%" style="float:right; padding:1px" /&gt;
+
+---
+
+# Research questions
+
+1. &lt;span style="color:#ced8d8";&gt; What are the impacts of technology costs, renewable portfolio standards, and transmission constraints on renewable energy investments?&lt;/span&gt;
+
+2. &lt;font color="#ced8d8"&gt;Will the environmental benefits of high renewable penetration be distributed equitably across India?&lt;/font&gt;
+
+3. **How will the water usage for power plant operations change, and how will water constraints affect power plant operations?**
+
+---
+
+# Research questions
+
+1. &lt;span style="color:#ced8d8";&gt; What are the impacts of technology costs, renewable portfolio standards, and transmission constraints on renewable energy investments?&lt;/span&gt;
+
+2. &lt;font color="#ced8d8"&gt;Will the environmental benefits of high renewable penetration be distributed equitably across India?&lt;/font&gt;
+
+3. **How will the water usage for power plant operations change, and how will water constraints affect power plant operations?**
+
+  * Add water intensity factors into model
+  * Incorportate climate and water/hydrology model outputs as constraints
 
 ---
 class: inverse, center, middle
