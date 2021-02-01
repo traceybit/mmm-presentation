@@ -23,9 +23,7 @@ name: toc
 
 1. [Background](#background)
 
-2. [Research questions](#rq)
-
-3. [Gridpath](#gridpath)
+2. [Gridpath](#gridpath)
 
 4. [Ongoing/future work](#future)
 
@@ -39,87 +37,47 @@ name: background
 
 ---
 
-# Some info on India's electricity grid
+# <font size="6pt">India is the world’s third-largest energy consumer, after the US and China</font>
 
----
-class: inverse, center, middle
-name: rq
-
-# Research questions
-
-<hr/>
-
----
-
-# We are interested in the following research questions:
-
-1. How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?
-
-2. Will the environmental benefits of high renewable penetration be distributed equitably across India? 
-
-3. How will the water usage for power plant operations change, and how will water constraints affect power plant operations?
+--
+India's current electricity mix is made up of mostly coal-sourced generation
+.center[
+```{r echo = FALSE, out.width = '70%'}
+knitr::include_graphics("img/figure8_2020.png")
+```
+]
 
 ---
 
-# We are interested in the following research questions:
+# Electricity demand in India is projected to grow 4.7% per year
 
-1. **How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?**
-
-2. <font color="#ced8d8">Will the environmental benefits of high renewable penetration be distributed equitably across India?</font>
-
-3. <span style="color:#ced8d8";>How will the water usage for power plant operations change, and how will water constraints affect power plant operations?</span>
-
----
-
-# slide on rq 1
+.center[
+```{r echo = FALSE, out.width = '80%'}
+knitr::include_graphics("img/world-electricity-generation.png")
+```
+]
 
 ---
 
-# We are interested in the following research questions:
+# Large-scale renewable energy is expected to increase as well
 
-1. **How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?**
+--
 
-2. <font color="#ced8d8">Will the environmental benefits of high renewable penetration be distributed equitably across India?</font>
+The government of India has established renewable energy goals for the grid
+.center[
+```{r echo = FALSE, out.width = '55%'}
+knitr::include_graphics("img/india-re-goals-2.png")
+```
+]
 
-3. <span style="color:#ced8d8";>How will the water usage for power plant operations change, and how will water constraints affect power plant operations?</span>
+--
 
----
-
-# We are interested in the following research questions:
-
-1. <span style="color:#ced8d8";> How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?</span>
-
-2. **Will the environmental benefits of high renewable penetration be distributed equitably across India?**
-
-3. <font color="#ced8d8">How will the water usage for power plant operations change, and how will water constraints affect power plant operations?</font>
-
----
-
-# slide on rq 2
-
----
-
-# We are interested in the following research questions:
-
-1. <span style="color:#ced8d8";> How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?</span>
-
-2. **Will the environmental benefits of high renewable penetration be distributed equitably across India?**
-
-3. <font color="#ced8d8">How will the water usage for power plant operations change, and how will water constraints affect power plant operations?</font>
-
----
-
-# We are interested in the following research questions:
-
-1. <span style="color:#ced8d8";> How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?</span>
-
-2. <font color="#ced8d8">Will the environmental benefits of high renewable penetration be distributed equitably across India?</font>
-
-3. **How will the water usage for power plant operations change, and how will water constraints affect power plant operations?**
-
----
-
-# slide on rq 3
+Renewables is projected to make up the majority of the electricity mix by 2050
+.center[
+```{r echo = FALSE, out.width = '28%'}
+knitr::include_graphics("img/india-projected-re.png")
+```
+]
 
 ---
 class: inverse, center, middle
@@ -181,9 +139,43 @@ You can download Gridpath on Github: [github.com/blue-marble/gridpath](https://g
 class: inverse, center, middle
 name: future
 
-# Ongoing/future work
+# Using Gridpath to model optimal investments with RE targets in India
 
 <hr/>
+
+---
+
+# Research questions
+
+1. How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?
+
+2. Will the environmental benefits of high renewable penetration be distributed equitably across India? 
+
+3. How will the water usage for power plant operations change, and how will water constraints affect power plant operations?
+
+---
+
+# Research questions
+
+1. **How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?**
+
+2. <font color="#ced8d8">Will the environmental benefits of high renewable penetration be distributed equitably across India?</font>
+
+3. <span style="color:#ced8d8";>How will the water usage for power plant operations change, and how will water constraints affect power plant operations?</span>
+
+---
+
+# <font size="6.5pt">There is a spatial diversity in wind and solar resources across India</font>
+--
+
+.right-column[
+.center[
+```{r echo = FALSE, out.width = '45%'}
+knitr::include_graphics("img/india-solar-resource.jpeg")
+```
+]
+]
+
 
 ---
 
@@ -209,6 +201,26 @@ For next steps, we will be adding the following to the India model:
 
 ---
 
+# Research questions
+
+1. **How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?**
+
+2. <font color="#ced8d8">Will the environmental benefits of high renewable penetration be distributed equitably across India?</font>
+
+3. <span style="color:#ced8d8";>How will the water usage for power plant operations change, and how will water constraints affect power plant operations?</span>
+
+---
+
+# Research questions
+
+1. <span style="color:#ced8d8";> How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?</span>
+
+2. **Will the environmental benefits of high renewable penetration be distributed equitably across India?**
+
+3. <font color="#ced8d8">How will the water usage for power plant operations change, and how will water constraints affect power plant operations?</font>
+
+---
+
 # Addressing research question 2
 
 --
@@ -229,6 +241,26 @@ For next steps, we will be adding the following to the India model:
 
 ---
 
+# Research questions
+
+1. <span style="color:#ced8d8";> How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?</span>
+
+2. **Will the environmental benefits of high renewable penetration be distributed equitably across India?**
+
+3. <font color="#ced8d8">How will the water usage for power plant operations change, and how will water constraints affect power plant operations?</font>
+
+---
+
+# Research questions
+
+1. <span style="color:#ced8d8";> How do renewable energy scenarios India look like given different technology costs, transmission constraints, and renewable portfolio standards (RPS)?</span>
+
+2. <font color="#ced8d8">Will the environmental benefits of high renewable penetration be distributed equitably across India?</font>
+
+3. **How will the water usage for power plant operations change, and how will water constraints affect power plant operations?**
+
+---
+
 # Addressing research question 3
 
 --
@@ -239,7 +271,7 @@ How will the water usage for power plant operations change, and how will water c
 --
 .right-column[
 .center[
-```{r echo = FALSE, out.width = '50%'}
+```{r echo = FALSE, out.width = '40%'}
 knitr::include_graphics("img/parched_power_map.png")
 ```
 ]
