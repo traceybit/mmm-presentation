@@ -212,9 +212,17 @@ Transmission capacity will be needed to integrate renewable energy capacity, but
 
 --
 * Coal power plants are concentrated in west-central northern regions of India
-```{r coal, echo = FALSE, out.width = '45%', out.extra='style="float:right; padding:5px"'}
+<div style= "position: relative; left: 50px; float: left;">
+```{r echo = FALSE, out.width = '52%'}
+knitr::include_graphics("img/india-grid.jpg")
+```
+</div>
+
+<div style= "position: relative;">
+```{r coal, echo = FALSE, out.width = '27%'}
 knitr::include_graphics("img/india-coal.jpg")
 ```
+</div>
 --
 
 * Largest coal reserves are located in eastern and southern regions, so coal plants there are cheaper to operate
