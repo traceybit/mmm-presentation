@@ -31,15 +31,15 @@ name: background
 --
 
 * Most of India's electricity currently comes from coal power plants
-```{r echo = FALSE, out.width = '40%', out.extra='style="float:right; padding:1px"'}
-knitr::include_graphics("img/figure9_2020.png")
+```{r echo = FALSE, out.width = '50%', out.extra='style="float:right; padding:1px"'}
+knitr::include_graphics("img/figure8_2020.png")
 ```
 
 --
 
 * Electricity demand in India is projected to grow 4.7% per year
 
-```{r echo = FALSE, out.width = '60%'}
+```{r echo = FALSE, out.width = '50%'}
 knitr::include_graphics("img/world-electricity-generation.png")
 ```
 
@@ -56,7 +56,7 @@ knitr::include_graphics("img/india-re-goals-2.png")
 
 --
 
-* Renewables is projected to make up the majority of the electricity mix by 2050
+* Renewables are projected to make up most of the electricity mix by 2050
 ```{r echo = FALSE, out.width = '40%'}
 knitr::include_graphics("img/india-projected-re.png")
 ```
@@ -264,18 +264,19 @@ knitr::include_graphics("img/india-coal.jpg")
 
 --
 
-* 10% of electricity is generated from hydropower plants, which also require water 
---
-
 * Power plants have had to shut down in recent years due to water shortages
 
-```{r echo = FALSE, out.width = '45%', out.extra='style="float:left; padding:1px"'}
+```{r echo = FALSE, out.width = '45%'}
 knitr::include_graphics("img/water-crisis-1.png")
 ```
 
-```{r echo = FALSE, out.width = '45%', out.extra='style="float:right; padding:1px"'}
+```{r echo = FALSE, out.width = '45%'}
 knitr::include_graphics("img/water-crisis-2.png")
 ```
+
+--
+
+* Hydropower plants, which also requires water, make up 10% of electricity generation
 
 ---
 
@@ -302,9 +303,19 @@ knitr::include_graphics("img/water-crisis-2.png")
   Next steps: 
   * Add water intensity factors into model
   * Incorportate climate and water/hydrology model outputs as constraints
+  
+---
+
+# Research questions
+
+1. **What are the impacts of technology costs, renewable portfolio standards, and transmission constraints on renewable energy investments?**
+
+2. **Will the environmental benefits of high renewable penetration be distributed equitably across India?**
+
+3. **How will the water usage for power plant operations change, and how will water constraints affect power plant operations?**
+
 
 ---
 class: inverse, center, middle
 
 # Thank you!
-<!-- <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html> -->
